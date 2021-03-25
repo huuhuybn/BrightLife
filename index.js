@@ -70,6 +70,6 @@ http.createServer(function (request, response) {
             });
     } else response.end('404 Not Found');
 
-}).listen(8080);
+}).listen(process.env.PORT || 3000);
 
 
