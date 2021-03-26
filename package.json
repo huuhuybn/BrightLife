@@ -1,24 +1,16 @@
 {
   "name": "hotwallpaper",
-  "version": "1.0.0",
-  "description": "hot wallpaper, share wallpaper ..",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js"},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huuhuybn/DemoLab3.git"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "hot",
-    "wallpaper",
-    "share",
-    "wallpaper"
-  ],
-  "author": "huy nguyen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/huuhuybn/DemoLab3/issues"
-  },
-  "homepage": "https://github.com/huuhuybn/DemoLab3#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
