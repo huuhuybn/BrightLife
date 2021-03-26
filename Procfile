@@ -1,1 +1,1 @@
-web:nodemon www.js
+web:node www.js
